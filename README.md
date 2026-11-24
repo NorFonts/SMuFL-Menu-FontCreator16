@@ -10,22 +10,22 @@ This free, community-developed project adds a structured **SMuFL** group to Font
 
 ## Screenshots — verified in FontCreator 16 on macOS
 
-The following are **authentic FontCreator screenshots, resized for efficient web display**, not renderings or simulated sidebar previews. They show the native **Categories → Glyph Sets → SMuFL** panel.
+The following are **authentic FontCreator screenshots**, not renderings or simulated sidebar previews. They show the native **Categories → Glyph Sets → SMuFL** panel.
 
 **Dark appearance**
 
-![SMuFL Glyph Sets in the FontCreator 16 Categories panel, dark appearance](docs/images/fontcreator16-smufl-dark.webp)
+![SMuFL Glyph Sets in the FontCreator 16 Categories panel, dark appearance](https://norfont.com/en/wp-content/uploads/2026/11/cleanshot-2026-11-24-at-10-f17b5911.png)
 
 <details>
 <summary>Light appearance and installed files</summary>
 
 **Light appearance**
 
-![SMuFL Glyph Sets in FontCreator 16, light appearance](docs/images/fontcreator16-smufl-light.webp)
+![SMuFL Glyph Sets in FontCreator 16, light appearance](https://norfont.com/en/wp-content/uploads/2026/11/cleanshot-2026-11-24-at-10-3fa994c3.png)
 
 **Installed category files in the personal GlyphSets folder**
 
-![23 SMuFL glyphset files in the user's FontCreator 16 settings folder on macOS](docs/images/fontcreator16-glyphsets-folder.webp)
+![23 SMuFL glyphset files in the user's FontCreator 16 settings folder on macOS](https://norfont.com/en/wp-content/uploads/2026/11/cleanshot-2026-11-24-at-10-4c794337.png)
 
 </details>
 
