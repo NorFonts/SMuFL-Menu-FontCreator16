@@ -1,0 +1,5 @@
+# Python cache and local build files
+__pycache__/
+*.pyc
+.DS_Store
+STAGED-GlyphSets/
