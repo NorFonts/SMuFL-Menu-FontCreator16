@@ -55,8 +55,6 @@ The installer writes **only** to the personal FontCreator 16 settings folder, `~
 
 Previous SMuFL collections, including any older copies inside the application bundle, **remain untouched**. The installer cannot restore missing custom Glyph Sets or automatically remove legacy duplicates. Do not run older experimental installers or uninstallers as part of this process.
 
-FontCreator displays the leading **A** icons in its Categories panel; they are UI icons, not characters inserted into the category names.
-
 
 ## Terminal commands
 
