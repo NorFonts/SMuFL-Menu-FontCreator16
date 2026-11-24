@@ -47,9 +47,16 @@ Requirements: FontCreator **16** (run at least once), **Python 3.9+** available 
 ~/Library/High-Logic/FontCreator/16.0/GlyphSets/
 ```
 
-Existing files are **never overwritten, renamed, removed, or backed up**. The installer reads existing SMuFL category metadata and skips matching categories, including older filenames with different prefixes. It only creates missing `.glyphset` files and, when necessary, the final `GlyphSets` directory in your **personal settings folder**. It never writes into `FontCreator.app`.
+## Important safety behavior
 
-This installer does not remove legacy duplicate collections already present in the application bundle. FontCreator draws the leading **A** icons in the Categories tree; they are not included in category names and cannot be removed through the `.glyphset` format.
+The generator uses **exclusive creation** (`O_EXCL`) for new `.glyphset` files. It **never overwrites, renames, deletes, or backs up** existing Glyph Sets. It checks for existing filenames and recognized SMuFL categories—including older names with prefixes—and skips them instead of creating replacements or duplicates.
+
+The installer writes **only** to the personal FontCreator 16 settings folder, `~/Library/High-Logic/FontCreator/16.0/GlyphSets/`. It requires the `16.0` user-data directory to exist, rejects symlinked or invalid destination paths, and creates **only the missing `GlyphSets` folder** when necessary. It does not write inside `FontCreator.app`, change FontCreator preferences, or edit font files or glyph outlines. **PREVIEW** is read-only.
+
+Previous SMuFL collections, including any older copies inside the application bundle, **remain untouched**. The installer cannot restore missing custom Glyph Sets or automatically remove legacy duplicates. Do not run older experimental installers or uninstallers as part of this process.
+
+FontCreator displays the leading **A** icons in its Categories panel; they are UI icons, not characters inserted into the category names.
+
 
 ## Terminal commands
 
