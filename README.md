@@ -1,16 +1,16 @@
-# SMuFL Menu for FontCreator 16
+# SMuFL Menus for FontCreator 16
 
-**Organized SMuFL Glyph Sets for FontCreator 16**, developed by **Nor Eddine Bahha** — [NorFonts](https://norfont.com/).
+**Organized SMuFL Glyph Sets for FontCreator 16 (macOS)**, developed by **Nor Eddine Bahha** — [NorFonts](https://norfont.com/).
 
-This free, community-developed project adds a structured **SMuFL** group to FontCreator's **Categories → Glyph Sets** panel. It generates **23 musical groups with 218 subcollections** from approximately **2,940 SMuFL glyph definitions**, including clefs, notes and rests, accidentals, microtonal notation, ornaments, historical notation, percussion, and more.
+This free, community-developed tool adds structured SMuFL collections to FontCreator's native **Categories → Glyph Sets** panel.
 
 ### Compatibility
 
 > _**Tested on FontCreator 16 for macOS 27 Golden Gate.** Other macOS versions have not been verified. **Windows compatibility has not been tested**; the generated `.glyphset` collections might also work with the Windows edition of FontCreator, but the supplied `.command` launcher and installation directory are **macOS-only**. A separate Windows installer and user-folder verification would be required._
 
-## Screenshots — verified in FontCreator 16 on macOS
+## Screenshots
 
-The following are **authentic FontCreator screenshots**, not renderings or simulated sidebar previews. They show the native **Categories → Glyph Sets → SMuFL** panel.
+The following are **authentic FontCreator 16 screenshots** from macOS, not simulated previews. They show the native **Categories → Glyph Sets → SMuFL** panel.
 
 **Dark appearance**
 
@@ -29,9 +29,21 @@ The following are **authentic FontCreator screenshots**, not renderings or simul
 
 </details>
 
-## Install (macOS)
+## Features
 
-Requirements: FontCreator **16** (run at least once), **Python 3.9+** available as `python3`, and internet access to retrieve the SMuFL source JSON metadata. The optional `--source-dir` argument allows a local metadata checkout instead.
+- **23 music-oriented groups** and **218 subcollections**, derived from approximately **2,940 SMuFL glyph definitions**.
+- Covers clefs, notes and rests, accidentals, microtonal notation, ornaments, historical notation, percussion, techniques, text and signs, and more.
+- Generates native FontCreator **`.glyphset` files** in the personal **Categories → Glyph Sets → SMuFL** collection.
+- **Add-only** installation: existing files and matching SMuFL categories are skipped, never replaced.
+- **PREVIEW**, **ADD ONE** (Accidentals), and **ADD ALL** modes to inspect or selectively apply changes.
+
+## Requirements
+
+- macOS with **FontCreator 16** (run at least once to initialize its personal settings folder).
+- Python **3.9+** available as `python3`.
+- Internet access to retrieve the source JSON metadata at runtime; alternatively, use the optional `--source-dir` argument with a local metadata checkout.
+
+## Install (macOS)
 
 1. Quit **FontCreator 16**.
 2. Download this repository as a ZIP (GitHub **Code → Download ZIP**) and extract it.
@@ -54,7 +66,6 @@ The generator uses **exclusive creation** (`O_EXCL`) for new `.glyphset` files. 
 The installer writes **only** to the personal FontCreator 16 settings folder, `~/Library/High-Logic/FontCreator/16.0/GlyphSets/`. It requires the `16.0` user-data directory to exist, rejects symlinked or invalid destination paths, and creates **only the missing `GlyphSets` folder** when necessary. It does not write inside `FontCreator.app`, change FontCreator preferences, or edit font files or glyph outlines. **PREVIEW** is read-only.
 
 Previous SMuFL collections, including any older copies inside the application bundle, **remain untouched**. The installer cannot restore missing custom Glyph Sets or automatically remove legacy duplicates. Do not run older experimental installers or uninstallers as part of this process.
-
 
 ## Terminal commands
 
@@ -79,3 +90,7 @@ This is an **independent FontCreator 16 adaptation**, not an official FontCreato
 **© 2026 Nor Eddine Bahha — [NorFonts](https://norfont.com/). All rights reserved except as expressly licensed.**
 
 The original project code is distributed under [Apache License 2.0](LICENSE). Source classification data is retrieved from [SMuFL-Glyphs4](https://github.com/Shinianqi/SMuFL-Glyphs4) and follows its own applicable licenses and notices; see [NOTICE.md](NOTICE.md). This independent project is not officially affiliated with High-Logic, FontCreator, or the SMuFL specification maintainers.
+
+## Related NorFonts Projects
+
+Looking for the FontLab version? Explore [SMuFL Menus for FontLab 8 & 9](https://github.com/NorFonts/SMuFL-Menus-FontLab8-9), which organizes SMuFL Encoding collections in FontLab's native **Encoding** menu.
