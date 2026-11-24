@@ -63,6 +63,12 @@ The implementation uses `smufl_organized.py` to derive the catalog and `smufl_fo
 
 > **Important:** Browsing glyph sets does not modify font outlines. FontCreator's **Complete Category** command can add missing glyphs to the open font; do not use it unless that is what you intend.
 
+## Author
+
+**Nor Eddine Bahha** — [NorFonts](https://norfont.com/)
+
+This is an **independent FontCreator 16 adaptation**, not an official FontCreator Glyph Set or a product endorsed by High-Logic or the W3C Music Notation Community Group. See [NOTICE.md](NOTICE.md) for source attribution and third-party licensing.
+
 ## License and attribution
 
 **© 2026 Nor Eddine Bahha — [NorFonts](https://norfont.com/). All rights reserved except as expressly licensed.**
