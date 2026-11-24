@@ -66,7 +66,7 @@ python3 smufl_fontcreator16.py --add-all
 
 The implementation uses `smufl_organized.py` to derive the catalog and `smufl_fontcreator16.py` to generate and safely install FontCreator-native Glyph Set files. Generated filenames are short, for example `Quick.glyphset`, `Accidentals.glyphset`, and `Notes-Rests.glyphset`. These are displayed under one parent **SMuFL** group; they are not installed into the app bundle.
 
-> **Important:** Browsing glyph sets does not modify font outlines. FontCreator's **Complete Category** command can add missing glyphs to the open font; do not use it unless that is what you intend.
+> ***Important:*** *Browsing glyph sets does not modify font outlines. FontCreator's **Complete Category** command can add missing glyphs to the open font; do not use it unless that is what you intend.*
 
 ## Author
 
