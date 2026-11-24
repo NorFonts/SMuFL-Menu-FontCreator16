@@ -6,7 +6,7 @@ This free, community-developed project adds a structured **SMuFL** group to Font
 
 ### Compatibility
 
-> **Tested on FontCreator 16 for macOS 27 Golden Gate.** Other macOS versions have not been verified. **Windows compatibility has not been tested**; the generated `.glyphset` collections might also work with the Windows edition of FontCreator, but the supplied `.command` launcher and installation directory are **macOS-only**. A separate Windows installer and user-folder verification would be required.
+> _**Tested on FontCreator 16 for macOS 27 Golden Gate.** Other macOS versions have not been verified. **Windows compatibility has not been tested**; the generated `.glyphset` collections might also work with the Windows edition of FontCreator, but the supplied `.command` launcher and installation directory are **macOS-only**. A separate Windows installer and user-folder verification would be required._
 
 ## Screenshots — verified in FontCreator 16 on macOS
 
